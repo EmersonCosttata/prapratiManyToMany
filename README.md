@@ -154,6 +154,4 @@ Este projeto utiliza as seguintes dependências:
 
 ---
 
-### Licença
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
