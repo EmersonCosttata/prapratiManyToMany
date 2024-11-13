@@ -19,33 +19,39 @@ Endpoint: POST /api/cursos
 {
   "nome": "Matemática"
 }
+
 Resposta Esperada: Retorna o curso criado com o ID gerado.
 Matricular Aluno em Curso
 
 Endpoint: POST /api/alunos/{id}/cursos/{cursoId}
 POST /api/alunos/1/cursos/1
+
 Resposta Esperada: Retorna o aluno com a lista de cursos atualizada.
 Remover Aluno de Curso
 
 Endpoint: DELETE /api/alunos/{id}/cursos/{cursoId}
+
 Exemplo:
 DELETE /api/alunos/1/cursos/1
 Resposta Esperada: Retorna o aluno com a lista de cursos atualizada.
 Listar Cursos de um Aluno
 
+
 Endpoint: GET /api/alunos/{id}/cursos
+
 Exemplo:
 GET /api/alunos/1/cursos
 Resposta Esperada: Retorna uma lista de cursos que o aluno está matriculado.
 Listar Alunos de um Curso
 
 Endpoint: GET /api/cursos/{id}/alunos
+
 Exemplo:
 GET /api/cursos/1/alunos
 Resposta Esperada: Retorna uma lista de alunos matriculados no curso.
-Testar a API
 
+Testar a API
 Endpoint: GET /api/test
-Copiar código
+
 GET /api/test
 Resposta Esperada: Retorna a mensagem "API funcionando!" para verificar se o serviço está online.
